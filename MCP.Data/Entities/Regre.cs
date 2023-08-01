@@ -1,0 +1,53 @@
+﻿namespace CED.Data.Entities
+{
+    public class Regre
+    {
+        public Guid RgsId { get; set; }
+
+        public byte[] RgsTimeStamp { get; set; } = null!;
+
+        public Guid RgsDossierId { get; set; }
+
+        public Guid? RgsInvolvedCoverageId { get; set; }
+
+        public Guid? RgsInvolvedObjectId { get; set; }
+
+        public int RgsSequenceNumber { get; set; }
+
+        public int? RgsPercentageRegres { get; set; }
+
+        public bool RgsIsManual { get; set; }
+
+        public bool RgsIsClearingHouse { get; set; }
+
+        public bool RgsIsGuaranteeFund { get; set; }
+
+        public decimal RgsPaymentValue { get; set; }
+
+        public decimal RgsRetentionValue { get; set; }
+
+        public decimal RgsRecoveryValueExpected { get; set; }
+
+        public string? RgsStatus { get; set; }
+
+        public string? RgsRecoveryStatementId { get; set; }
+
+        public string? RgsRecoveryStatementNumber { get; set; }
+
+        public DateTime RgsCreatedDate { get; set; }
+
+        public string? RgsCreatedBy { get; set; }
+
+        public DateTime RgsLastModifiedDate { get; set; }
+
+        public string? RgsLastModifiedBy { get; set; }
+
+        public virtual ICollection<ReceivedPayment> ReceivedPayments { get; } = new List<ReceivedPayment>();
+
+        public virtual Dossier RgsDossier { get; set; } = null!;
+
+        public virtual InvolvedCoverage? RgsInvolvedCoverage { get; set; }
+
+        public virtual InvolvedObject? RgsInvolvedObject { get; set; }
+    }
+}

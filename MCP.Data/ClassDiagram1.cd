@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="NameAndType">
+  <Class Name="CED.Data.Entities.DossierAssignment">
+    <Position X="5" Y="7" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>ACAFwCSQEGARCQyDBIEZECAI6AICBJABAGgAKAAYQQg=</HashCode>
+      <FileName>Entities\DossierAssignment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DoaAssignmentType" />
+      <Property Name="DoaDepartment" />
+      <Property Name="DoaInvolvedCoverage" />
+      <Property Name="DoaInvolvedObject" />
+      <Property Name="DoaPartner" />
+      <Property Name="DoaDossier" />
+      <Property Name="DoaProduct" />
+      <Property Name="DossierAssignmentCurrentStatus" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="DossierAssignmentClosingHistories" />
+      <Property Name="DossierAssignmentHandlerHistories" />
+      <Property Name="DossierAssignmentInvolvedObjects" />
+      <Property Name="DossierAssignmentOperationalStatusHistories" />
+      <Property Name="DossierAssignmentParties" />
+      <Property Name="DossierAssignmentVisitInformations" />
+      <Property Name="DossierWorkActivities" />
+      <Property Name="DossierParties" />
+      <Property Name="RecoveryStatements" />
+      <Property Name="WorkingOrders" />
+      <Property Name="DossierAssignmentStatusHistories" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentType" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQACQABAAAQIAAAACAAAAAABAAAAAAUACAAAAw=</HashCode>
+      <FileName>Entities\DossierAssignmentType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.Department" Collapsed="true">
+    <Position X="7" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQABHBAECAkCIACABAQAAAAIGIABEoAIAAAJEgECAhQ=</HashCode>
+      <FileName>Entities\Department.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Dep" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.InvolvedCoverage" Collapsed="true">
+    <Position X="2" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CRABAAGAygBQAJCLFAAAIAgAAgAkAAJAIAEBEBAAQAA=</HashCode>
+      <FileName>Entities\InvolvedCoverage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.InvolvedObject" Collapsed="true">
+    <Position X="4" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QKCAAAGhCIAAAACABBAjAAAADAkAIINAAAAAEQQAAIA=</HashCode>
+      <FileName>Entities\InvolvedObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Property" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.Partner" Collapsed="true">
+    <Position X="2" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAoAAAAAAEJAAAAAAAAAAAAQBAEEEAAA=</HashCode>
+      <FileName>Entities\Partner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.Dossier" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MARFUiOAGsIQSQWjBpGDGjAI7CMBQZJDBLUIiDAPRBg=</HashCode>
+      <FileName>Entities\Dossier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AdviceDossier" />
+      <Property Name="DosCause" />
+      <Property Name="DosClient" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="DossierContactPeople" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.Product" Collapsed="true">
+    <Position X="14" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oiImSACNqQwAIAbEYgKwAAAIAoCRAAEAAAgJHCBRSAA=</HashCode>
+      <FileName>Entities\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentClosingHistory" Collapsed="true">
+    <Position X="1.5" Y="14.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABKCAAAEAAACAQAAiCAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\DossierAssignmentClosingHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentCurrentStatus" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAIAAAAAAAQAECAAAQAACAAAAAAAQAAgYgAAAAA=</HashCode>
+      <FileName>Entities\DossierAssignmentCurrentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentHandlerHistory" Collapsed="true">
+    <Position X="9.5" Y="18.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABBAAQAEQIAAAAAAAAAcAAEBBAEAgEAAAAAgAA=</HashCode>
+      <FileName>Entities\DossierAssignmentHandlerHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentInvolvedObject" Collapsed="true">
+    <Position X="12.5" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAQgACAAAAAAAgAAAACIACAAAAAAAAIAAAAABAA=</HashCode>
+      <FileName>Entities\DossierAssignmentInvolvedObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentOperationalStatusHistory" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAIAAAEAAAAAAAAAAAAgAAhCAAICAAAoASAAAAAA=</HashCode>
+      <FileName>Entities\DossierAssignmentOperationalStatusHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentParty" Collapsed="true">
+    <Position X="13.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABIBAAAAAAAAAAAAAEAAAAAAAACAAABAgAAEAABFAAA=</HashCode>
+      <FileName>Entities\DossierAssignmentParty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentVisitInformation" Collapsed="true">
+    <Position X="9.5" Y="16.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAAAEAAAAIAAACAAABAgAAEAAAFAAA=</HashCode>
+      <FileName>Entities\DossierAssignmentVisitInformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DavVisitInformation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierWorkActivity" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAMgRIgAAAEHACAgAoQUIAIACQABCAQQQBAACAAUQA=</HashCode>
+      <FileName>Entities\DossierWorkActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DwaActivityOption" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierParty" Collapsed="true">
+    <Position X="13" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAFACiQEeBBAQSDBIJCACAJSCAAQJAAACACAAB9CIA=</HashCode>
+      <FileName>Entities\DossierParty.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DopInvolvedParty" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.RecoveryStatement" Collapsed="true">
+    <Position X="2" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>A8ESxkDMYAEMGAoVgAiiKAAAQiAAjMQRAA3AgAgABAQ=</HashCode>
+      <FileName>Entities\RecoveryStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.WorkingOrder" Collapsed="true">
+    <Position X="7" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEUACAgAEBAIACDAIEBAAAIAARQACAUggAgOCBQAAI=</HashCode>
+      <FileName>Entities\WorkingOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.InvolvedParty" Collapsed="true">
+    <Position X="16" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAEIDeCGQEBAAAGACASDwBAiABAIEECAAEBEYACAA=</HashCode>
+      <FileName>Entities\InvolvedParty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.AdviceDossier" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQEAACAADBCAAEAAAGAIFIBAAAIQFMQBBAIJAEIAA=</HashCode>
+      <FileName>Entities\AdviceDossier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.OrganizationUnit" Collapsed="true">
+    <Position X="4" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>VQNECFEkCIUCkoRKwOEOwGEoHCEGIoJYeA2Bc8oARgw=</HashCode>
+      <FileName>Entities\OrganizationUnit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Department" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentStatusHistory" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAIAgAgAAAAAAAAAEAAgAABCAAACAAAoASAAAAAA=</HashCode>
+      <FileName>Entities\DossierAssignmentStatusHistory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AshDossierAssignmentStatus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierAssignmentStatus" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEEAAAgCgAAJCAAAAAAAgAUAAAAAI=</HashCode>
+      <FileName>Entities\DossierAssignmentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.ActivityOption" Collapsed="true">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAmCAAEADIAAkBAAQACCAAEgIAQQAAAAAAAIgAAA=</HashCode>
+      <FileName>Entities\ActivityOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.DamageReason" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAgACAAAwEAAIIAAAAAEoAIEAYQIAAAAAgAAQAAEpg=</HashCode>
+      <FileName>Entities\DamageReason.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.Client" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABTSgAJyAEABAAAAAKHkBAIAAAAA4AAICAJAgBEkkA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.DossierContactPerson" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAgAgAAASIAAAAAAEBAEAAAACABAAAAAAAAARA=</HashCode>
+      <FileName>Entities\DossierContactPerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.Property" Collapsed="true">
+    <Position X="1" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAATUEIABIgAAIoIAIAAgEBIkAEgKAAAAEAAABBgAA=</HashCode>
+      <FileName>Entities\Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CED.Data.Entities.VisitInformation" Collapsed="true">
+    <Position X="13" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CMDAIAAFAQACYQAACAFYSCGACAAUAlEECAEoiBYAMAE=</HashCode>
+      <FileName>Entities\VisitInformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="VifEmployee" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CED.Data.Entities.Employee" Collapsed="true">
+    <Position X="13" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DxQZSOCACJBCKAsCRJSB0m1iI0kFCIIiknAwCQAYQEg=</HashCode>
+      <FileName>Entities\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
